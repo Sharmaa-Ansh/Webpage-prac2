@@ -1,0 +1,145 @@
+.top-container{
+    /* border: solid red 1px; */
+    max-width: 69%;
+    margin: auto;
+    margin-bottom: 4.5rem;
+    padding-top: 6rem;
+    position: relative;
+}
+
+.main-heading{
+    
+    font-size: 2.5rem;
+    max-width: 40%;
+  /* border: solid 1px blue;   */
+  display: inline-block;
+  color: hsl(300, 43%, 22%);
+  font-family: 'Spartan', sans-serif;
+  font-weight: 700;
+}
+
+.main-description{
+    font-size: 15px;
+    color: hsl(303, 10%, 53%);
+    font-family: 'Spartan', sans-serif;
+    font-weight: 400;
+}
+
+
+
+.list-box{
+    position: absolute;
+    top: 6rem;
+    right: 5px;
+    margin-left: 7rem;
+    /* border: solid 1px black; */
+    display: inline-block;
+    margin-top: none;
+}
+
+.list-item{
+list-style-type: none;
+border: none;
+padding: 0.8rem 0rem;
+padding-left: 1.2rem;
+padding-right: 2.8rem;
+border-radius: 0.4rem;
+font-family: 'Spartan', sans-serif;
+font-weight: 700;
+font-size: 15px;
+color: hsl(300, 43%, 22%);
+background-color: hsl(300, 24%, 96%);
+}
+
+.item-1{
+    width: 310px;
+}
+
+.item-2{
+    margin-top: 1.2rem;
+    margin-left: 1.5rem;
+    width: 310px;
+
+}
+
+.item-3{
+margin-top: 1.2rem;    
+margin-left: 3rem;
+width: 310px;
+
+}
+
+.star{
+    padding-right: 1rem;
+}
+
+.bottom-container{
+    /* border: solid 1px blue; */
+    max-width: 69%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    border: solid green 1px;
+    max-width: 17rem;
+    text-align: center; 
+    border-radius: 0.5rem; 
+    background-color: hsl(300, 43%, 22%);
+    border: none;
+    font-size: 15px;
+    font-family: 'Spartan', sans-serif;
+
+
+}
+
+.card-1{
+    max-height: 165px;
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.card-2{
+    height: 165px;
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 1rem;
+}
+
+.card-3{
+    height: 165px;
+    padding-top:1.5rem;
+    margin-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.card-heading{
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    font-weight: 500;
+}
+
+.card-description{
+    text-align: justify;
+    color: hsl(300, 24%, 96%);
+}
+
+.image{
+    border-radius: 50%;
+    max-width: 2.5rem;
+}
+
+.top-info-container{
+    display: inline-block;
+    padding-right: 6rem;
+    padding-left: 1rem;
+}
+
+.parah{
+    margin-block-start: 0.5em;
+    color: hsl(333, 80%, 67%);
+}
+
